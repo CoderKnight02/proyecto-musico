@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 *{
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body{
@@ -34,6 +35,8 @@ body::-webkit-scrollbar-thumb{
 .butt:hover{
     color: #f42c04;
     background-color: white;
+    box-shadow: 3px 3px 10px rgb(24, 24, 24);
+    transform: translateY(-5px);
 }
 .butt:active{
     background-color: #aaa;
@@ -87,9 +90,3 @@ h2{
         background-size: 650px, 500px, 300px, 200px;
     }
 }
-
-/* @media (max-width: 1160px){
-    body{
-        background-size: 350px, 400px, 300px, 200px;
-    }
-} */

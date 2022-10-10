@@ -62,7 +62,7 @@
         color: #f42c04;
         text-decoration: none;
     }
-    
+
     ul a:hover{
         color: white;
     }

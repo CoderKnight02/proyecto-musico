@@ -14,7 +14,7 @@
             <span>Un placer tenerte por aca.</span>
         </p>
 
-        <a class="butt" href="#contact">Contactame!</a>
+        <a href="#contact" class="butt">Contactame!</a>
 
     </div>
 </template>
