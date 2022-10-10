@@ -19,6 +19,18 @@ body{
     margin-bottom: 20px;
 }
 
+body::-webkit-scrollbar{
+    width: .4rem;
+}
+body::-webkit-scrollbar-track{
+    background-color: #5e5c5c;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #f42c04;
+    border-radius: 10px;
+}
+
+
 .butt:hover{
     color: #f42c04;
     background-color: white;
