@@ -32,9 +32,6 @@
         margin-left: auto;
         flex-basis: 45%;
         gap: 10px;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
     }
     li{
         margin-right: 10px;
@@ -42,27 +39,15 @@
     
     li a{
         font-size: 1.5rem;
-        text-decoration: none;
-        color: white;
     }
-    h1{
-        color: white;
-        text-align: right;
-        flex-basis: 40%;
-        font-size: 5rem;
-    }
-
     span{
         display: block;
         color: #f42c04;
 
     }
 
-    
-    
     p{
         margin-top: 150px;
-        color: white;
         font-size: 2.2rem;
     }
 

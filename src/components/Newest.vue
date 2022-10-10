@@ -15,21 +15,11 @@
 </template>
 
 <style scoped>
-    
-    h2{
-        font-size: 3rem;
-    }
-    li,h2{
-        color: white;
-    }
     ul{
         display: flex;
         gap: 20px;
-        list-style-type: none;
-        padding: 0;
     }
     li{
-        margin: 0;
         font-size: 2rem;
     }
     .box{

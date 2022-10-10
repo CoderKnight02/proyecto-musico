@@ -35,3 +35,41 @@ body{
     letter-spacing: .1rem;
     transition: .3s;
 }
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin: 0;
+}
+
+h1{
+    text-align: right;
+    flex-basis: 40%;
+    font-size: 5rem;
+}
+h2{
+    font-size: 3rem;
+}
+
+@media (max-width: 1410px){
+    body{
+        background-size: 700px, 600px, 300px, 200px;
+    }
+}
+
+@media (max-width: 1210px){
+    body{
+        background-size: 650px, 500px, 300px, 200px;
+    }
+}
+
+/* @media (max-width: 1160px){
+    body{
+        background-size: 350px, 400px, 300px, 200px;
+    }
+} */

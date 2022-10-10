@@ -28,9 +28,6 @@
 </template>
 
 <style scoped>
-    h2{
-        font-size: 3rem;
-    }
     .wraper{
         margin-left: -100px;
         margin-top: 300px;
@@ -56,8 +53,6 @@
     }
     
     li{
-        list-style-type: none;
-        margin: 0;
         margin-bottom: 20px;
     }
 
@@ -67,6 +62,7 @@
         color: #f42c04;
         text-decoration: none;
     }
+    
     ul a:hover{
         color: white;
     }

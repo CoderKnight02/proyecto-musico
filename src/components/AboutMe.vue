@@ -37,13 +37,6 @@
         margin-top: 600px;
     }
 
-    h2,p, li, h3{
-        color: white;
-    }
-
-    h2{
-        font-size: 3rem;
-    }
     h3{
         font-size: 2rem;
         position:absolute;
