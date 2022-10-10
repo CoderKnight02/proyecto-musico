@@ -1,11 +1,13 @@
 <script>
 import Header from './components/Header.vue';
+import AboutMe from './components/AboutMe.vue';
 
     export default{
     data() {
     },
-    components: { 
-        Header,
+    components: {
+      Header,
+      AboutMe
     }
 }
 
@@ -14,7 +16,7 @@ import Header from './components/Header.vue';
 <template>
 
   <Header></Header>
-    
+  <AboutMe></AboutMe>
 
 
 </template>

@@ -2,7 +2,7 @@
     <nav>
         <h1>Alec</h1>
         <ul>
-            <li class="list"><a href="#">Sobre mi</a></li>
+            <li class="list"><a href="#about">Sobre mi</a></li>
             <li class="list"><a href="#">Lo más reciente</a></li>
             <li class="list"><a href="#">Contáctame</a></li>
         </ul>

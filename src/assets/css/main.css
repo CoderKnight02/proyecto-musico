@@ -4,8 +4,9 @@ body{
     margin: 0;
     background-color: #191919;
     background-image: url(../images/musico.png),url(../images/Vectormusic1.svg);
-    background-size: 60%;
+    background-size: 900px, auto;
     background-repeat: no-repeat, no-repeat;
     background-position-x: right, left;
     background-position-y: top, top;
+    overflow-x: hidden;
 }
