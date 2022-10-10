@@ -1,7 +1,7 @@
 <template>
     
 
-    <h2>Lo Mas reciente</h2>  
+    <h2 id="new">Lo más reciente</h2>  
     
     <div>
         <ul>

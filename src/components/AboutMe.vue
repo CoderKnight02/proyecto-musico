@@ -2,7 +2,7 @@
     <div class="cont" id="about">
         <div>
             <h2>
-                Sobre Mi
+                Sobre mi
             </h2>
             <p>
                 Soy Alec, cantante y compositor cubano. He estado trabajando duro para construir mi base de fans. Comencé publicando mi música en redes sociales como YouTube y Facebook. Luego comencé a recibir solicitudes de fans de todo el mundo para que mis canciones se publicaran en otras plataformas. Si te interersa y quieres saber lo que hago solo hecha un vistazo a la derecha.
@@ -10,7 +10,7 @@
         </div>
 
         <div class="vect">
-            <h3>Generos</h3>
+            <h3>Géneros</h3>
 
             <img src="../assets/images/VectorCirculo.svg" alt="Circulo">
             

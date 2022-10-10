@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 *{
     box-sizing: border-box;
     font-family: sans-serif;
@@ -38,6 +39,7 @@ body{
 
 ul{
     list-style-type: none;
+    padding: 0;
 }
 a{
     text-decoration: none;
@@ -46,14 +48,20 @@ a{
 li{
     margin: 0;
 }
+h1,h2{
+    font-family: 'Cookie', cursive;
+    font-weight: 500;
+}
 
 h1{
     text-align: right;
     flex-basis: 40%;
-    font-size: 5rem;
+    font-size: 6rem;
 }
+
 h2{
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: 1rem;
 }
 
 @media (max-width: 1410px){

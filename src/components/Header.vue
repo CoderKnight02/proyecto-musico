@@ -3,8 +3,8 @@
         <h1>Alec</h1>
         <ul>
             <li class="list"><a href="#about">Sobre mi</a></li>
-            <li class="list"><a href="#">Lo más reciente</a></li>
-            <li class="list"><a href="#">Contáctame</a></li>
+            <li class="list"><a href="#new">Lo más reciente</a></li>
+            <li class="list"><a href="#contact">Contáctame</a></li>
         </ul>
     </nav>
     <div>
@@ -14,7 +14,7 @@
             <span>Un placer tenerte por aca.</span>
         </p>
 
-        <a class="butt">Contactame!</a>
+        <a class="butt" href="#contact">Contactame!</a>
 
     </div>
 </template>
