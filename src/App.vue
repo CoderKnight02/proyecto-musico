@@ -1,14 +1,16 @@
 <script>
 import Header from './components/Header.vue';
 import AboutMe from './components/AboutMe.vue';
+import Newest from './components/Newest.vue';
 
     export default{
     data() {
     },
     components: {
-      Header,
-      AboutMe
-    }
+    Header,
+    AboutMe,
+    Newest
+}
 }
 
 </script>
@@ -17,10 +19,9 @@ import AboutMe from './components/AboutMe.vue';
 
   <Header></Header>
   <AboutMe></AboutMe>
+  <Newest></Newest>
 
 
 </template>
 
-<style>
-    
-</style>
+<style></style>

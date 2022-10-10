@@ -77,9 +77,6 @@
         background-clip: #aaa;
     }
 
-    div{
-        margin-left: 10vw;
-    }
     p{
         margin-top: 150px;
         color: white;
