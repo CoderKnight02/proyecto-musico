@@ -9,11 +9,11 @@ body{
     margin: 0;
     margin-left: 100px;
     background-color: #191919;
-    background-image: url(../images/musico.png),url(../images/Vectormusic1.svg);
-    background-size: 900px, auto;
-    background-repeat: no-repeat, no-repeat;
-    background-position-x: right, left;
-    background-position-y: top, top;
+    background-image: url(../images/musico.png),url(../images/Vectormusic1.svg), url(../images/Vectormusic3.svg), url(../images/Vectormusic2.svg);
+    background-size: 900px, auto, 400px, 300px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position-x: right, left, right, right;
+    background-position-y: top, top, bottom, calc(50% + 200px);
     overflow-x: hidden;
     margin-bottom: 20px;
 }

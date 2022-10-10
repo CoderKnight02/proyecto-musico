@@ -33,7 +33,7 @@
     }
     .wraper{
         margin-left: -100px;
-        margin-top: 400px;
+        margin-top: 300px;
         display: flex;
         align-items: center;
         flex-direction: column;
