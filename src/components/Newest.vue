@@ -9,9 +9,7 @@
             <li> Videos </li>
             <li> Fotos </li>
         </ul>
-        <div class="box">
-
-        </div>
+        <div class="box"></div>
     </div>
     
 </template>

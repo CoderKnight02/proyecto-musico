@@ -2,6 +2,7 @@
 import Header from './components/Header.vue';
 import AboutMe from './components/AboutMe.vue';
 import Newest from './components/Newest.vue';
+import Contactame from './components/Contactame.vue';
 
     export default{
     data() {
@@ -9,7 +10,8 @@ import Newest from './components/Newest.vue';
     components: {
     Header,
     AboutMe,
-    Newest
+    Newest,
+    Contactame
 }
 }
 
@@ -20,6 +22,7 @@ import Newest from './components/Newest.vue';
   <Header></Header>
   <AboutMe></AboutMe>
   <Newest></Newest>
+  <Contactame></Contactame>
 
 
 </template>

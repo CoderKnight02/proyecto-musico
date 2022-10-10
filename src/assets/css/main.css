@@ -1,6 +1,11 @@
-
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
 body{
+    color: white;
+    position: relative;
     margin: 0;
     margin-left: 100px;
     background-color: #191919;
@@ -10,4 +15,23 @@ body{
     background-position-x: right, left;
     background-position-y: top, top;
     overflow-x: hidden;
+    margin-bottom: 20px;
+}
+
+.butt:hover{
+    color: #f42c04;
+    background-color: white;
+}
+.butt:active{
+    background-color: #aaa;
+}
+.butt{
+    border-radius: 10px;
+    color: white;
+    background-color: #f42c04;
+    padding: 10px 15px ;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: .3s;
 }

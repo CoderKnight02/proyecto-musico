@@ -14,7 +14,7 @@
             <span>Un placer tenerte por aca.</span>
         </p>
 
-        <a class="butt">Contactame</a>
+        <a class="butt">Contactame!</a>
 
     </div>
 </template>
@@ -58,25 +58,8 @@
 
     }
 
-    .butt{
-        border-radius: 10px;
-        color: white;
-        background-color: #f42c04;
-        padding: 10px 15px ;
-        font-size: 2rem;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: .1rem;
-        transition: .3s;
-    }
-    .butt:hover{
-        color: #f42c04;
-        background-color: white;
-    }
-    .butt:active{
-        background-clip: #aaa;
-    }
-
+    
+    
     p{
         margin-top: 150px;
         color: white;
