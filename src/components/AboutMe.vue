@@ -16,7 +16,7 @@
             
             <ul>
                 <div class="separator">
-                    <li>Valada</li>
+                    <li>Balada</li>
                     <li>Pop</li>
                 </div>
                 <div class="separator">
