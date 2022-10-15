@@ -9,7 +9,7 @@
     </nav>
     <div>
 
-        <p>
+        <p class="ph">
             Hola mi nombre es Alec.
             <span>Un placer tenerte por aca.</span>
         </p>
@@ -31,11 +31,12 @@
         justify-content: flex-end;
         margin-left: auto;
         flex-basis: 45%;
-        gap: 10px;
+        gap: 25px;
+        margin-right: 20px;
     }
-    li{
+    /* li{
         margin-right: 10px;
-    }
+    } */
     
     li a{
         font-size: 1.5rem;
@@ -46,9 +47,58 @@
 
     }
 
-    p{
+    .ph{
         margin-top: 150px;
         font-size: 2.2rem;
     }
+
+    @media (max-width: 1110px) {
+        li a{
+            font-size: 1.5rem; 
+        }
+        .ph{
+            font-size: 1.8rem;
+        }
+        .butt{
+            font-size: 1.9rem;
+        }
+        ul{
+            flex-basis: unset;
+        }
+
+    }
+
+    @media (max-width: 880px) {
+        li a{
+            font-size: 1.2rem; 
+        }
+        .ph{
+            font-size: 1rem;
+        }
+        .butt{
+            font-size: 1rem;
+        }
+        ul{
+            flex-basis: unset;
+        }
+
+    }
+
+    @media (max-width: 610px) {
+        li a{
+            font-size: .9rem; 
+        }
+        .ph{
+            font-size: .9rem;
+        }
+        .butt{
+            font-size: .9rem;
+        }
+        ul{
+            flex-basis: unset;
+        }
+
+    }
+
 
 </style>

@@ -5,7 +5,7 @@
                 Sobre mi
             </h2>
             <p>
-                Soy Alec, cantante y compositor cubano. He estado trabajando duro para construir mi base de fans. Comencé publicando mi música en redes sociales como YouTube y Facebook. Luego comencé a recibir solicitudes de fans de todo el mundo para que mis canciones se publicaran en otras plataformas. Si te interersa y quieres saber lo que hago solo hecha un vistazo a la derecha.
+                Soy Alec, cantante y compositor cubano. He estado trabajando duro para construir mi base de fans. Comencé publicando mi música en redes sociales como YouTube y Facebook. Luego comencé a recibir solicitudes de fans de todo el mundo para que mis canciones se publicaran en otras plataformas. Si te interesa y quieres saber lo que hago solo hecha un vistazo a la derecha.
             </p>
         </div>
 
