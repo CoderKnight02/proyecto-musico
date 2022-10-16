@@ -11,9 +11,7 @@
 
         <div class="vect">
             <h3>Géneros</h3>
-
-            <img src="../assets/images/VectorCirculo.svg" alt="Circulo">
-            
+            <!-- <img src="../assets/images/VectorCirculo.svg" alt="Circulo"> -->
             <ul>
                 <div class="separator">
                     <li>Balada</li>

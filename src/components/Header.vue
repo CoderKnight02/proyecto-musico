@@ -20,7 +20,9 @@
 </template>
 
 <style scoped>
-    
+    :root{
+        --fs-base: clamp(1rem, 2vw, 2.2rem);
+    }
     nav{
         display: flex;
         justify-content: space-evenly;
@@ -34,34 +36,21 @@
         gap: 25px;
         margin-right: 20px;
     }
-    /* li{
-        margin-right: 10px;
-    } */
     
     li a{
-        font-size: 1.5rem;
+        font-size: var(--fs-base);
     }
     span{
         display: block;
         color: #f42c04;
 
     }
-
     .ph{
         margin-top: 150px;
-        font-size: 2.2rem;
+        font-size: var(--fs-base-ph);
     }
 
     @media (max-width: 1110px) {
-        li a{
-            font-size: 1.5rem; 
-        }
-        .ph{
-            font-size: 1.8rem;
-        }
-        .butt{
-            font-size: 1.9rem;
-        }
         ul{
             flex-basis: unset;
         }
@@ -69,15 +58,6 @@
     }
 
     @media (max-width: 880px) {
-        li a{
-            font-size: 1.2rem; 
-        }
-        .ph{
-            font-size: 1rem;
-        }
-        .butt{
-            font-size: 1rem;
-        }
         ul{
             flex-basis: unset;
         }
@@ -85,15 +65,6 @@
     }
 
     @media (max-width: 610px) {
-        li a{
-            font-size: .9rem; 
-        }
-        .ph{
-            font-size: .9rem;
-        }
-        .butt{
-            font-size: .9rem;
-        }
         ul{
             flex-basis: unset;
         }
@@ -102,3 +73,15 @@
 
 
 </style>
+
+<!-- 
+
+--font-size-sm: clamp(0.8rem, 0.16vw + 0.76rem, 0.89rem);
+--font-size-base: clamp(1rem, 0.33vw + 0.92rem, 1.19rem);
+--font-size-md: clamp(1.25rem, 0.59vw + 1.11rem, 1.58rem);
+--font-size-lg: clamp(1.56rem, 0.97vw + 1.34rem, 2.11rem);
+--font-size-xl: clamp(1.95rem, 1.52vw + 1.6rem, 2.81rem);
+--font-size-xxl: clamp(2.44rem, 2.31vw + 1.9rem, 3.75rem);
+--font-size-xxxl: clamp(3.05rem, 3.44vw + 2.25rem, 5rem);
+
+ -->
