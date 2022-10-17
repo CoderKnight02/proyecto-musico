@@ -73,15 +73,3 @@
 
 
 </style>
-
-<!-- 
-
---font-size-sm: clamp(0.8rem, 0.16vw + 0.76rem, 0.89rem);
---font-size-base: clamp(1rem, 0.33vw + 0.92rem, 1.19rem);
---font-size-md: clamp(1.25rem, 0.59vw + 1.11rem, 1.58rem);
---font-size-lg: clamp(1.56rem, 0.97vw + 1.34rem, 2.11rem);
---font-size-xl: clamp(1.95rem, 1.52vw + 1.6rem, 2.81rem);
---font-size-xxl: clamp(2.44rem, 2.31vw + 1.9rem, 3.75rem);
---font-size-xxxl: clamp(3.05rem, 3.44vw + 2.25rem, 5rem);
-
- -->

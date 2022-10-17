@@ -15,6 +15,9 @@
 </template>
 
 <style scoped>
+    h2{
+        margin-top: 10vmax;
+    }
     ul{
         display: flex;
         gap: 20px;
@@ -25,7 +28,22 @@
     .box{
         background-color: white;
         border-radius: 10px;
-        width: 500px;
-        height: 500px;
+        width: min(80vw, 500px);
+        height: min(80vw, 500px);
     }
+
+    @media (max-width: 850px){
+        h2{
+            text-align: center;
+        }
+        .box{
+            margin-inline: auto;
+
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
 </style>

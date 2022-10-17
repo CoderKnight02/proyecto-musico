@@ -1,7 +1,7 @@
 <template>
     <div class="wraper">
 
-        <h2 id="contact">Contáctame</h2>
+        <h2>Contactame</h2>
         <div class="form">
             <nav>
                 <ul>
@@ -83,4 +83,18 @@
         font-size: 1rem;
     }
 
+    @media (max-width: 600px){
+        .wraper > * {
+            margin-inline: auto;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+        }
+        ul{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: -30px;
+        }
+    }
 </style>

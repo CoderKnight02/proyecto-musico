@@ -5,56 +5,49 @@
                 Sobre mi
             </h2>
             <p>
-                Soy Alec, cantante y compositor cubano. He estado trabajando duro para construir mi base de fans. Comencé publicando mi música en redes sociales como YouTube y Facebook. Luego comencé a recibir solicitudes de fans de todo el mundo para que mis canciones se publicaran en otras plataformas. Si te interesa y quieres saber lo que hago solo hecha un vistazo a la derecha.
+                Soy Alec, cantante y compositor cubano. He estado trabajando duro para construir mi base de fans. Comencé publicando mi música en redes sociales como YouTube y Facebook. Luego comencé a recibir solicitudes de fans de todo el mundo para que mis canciones se publicaran en otras plataformas. Si te interesa y quieres saber lo que hago solo hecha un vistazo<span class="visible"> a la derecha.</span>
             </p>
         </div>
 
-        <div class="vect">
+        <ul>
             <h3>Géneros</h3>
-            <!-- <img src="../assets/images/VectorCirculo.svg" alt="Circulo"> -->
-            <ul>
-                <div class="separator">
-                    <li>Balada</li>
-                    <li>Pop</li>
-                </div>
-                <div class="separator">
-                    <li>Dancehall</li>
-                    <li>Urbano</li>
-                </div>
-            </ul>
-        </div>
+            <div class="separator">
+                <li>Balada</li>
+                <li>Pop</li>
+            </div>
+            <div class="separator">
+                <li>Dancehall</li>
+                <li>Urbano</li>
+            </div>
+        </ul>
     </div>
 </template>
 
 <style scoped>
 
     .cont{
-        height: 400px;
+        background-image: url(../assets/images/VectorCirculo.svg);
+        background-position: top 50% right 0;
+        background-size: contain;
+        background-repeat: no-repeat;
         display: flex;
-        justify-content: space-around;
-        margin-top: 600px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: clamp(2rem, 38vw,60rem);
+        
     }
 
     h3{
         font-size: 2rem;
-        position:absolute;
-        top: 25%;
-        left: 30%;
     }
     p{
         width: 50vw;
-        font-size: 1.6rem;
+        font-size: clamp(1.25rem, 2vw, 1.8rem);
     }
 
     ul{
         list-style-type: none;
         padding: 0;
-    }
-
-    ul{
-        position: absolute;
-        top: 40%;
-        left: 40%;
     }
 
     li{
@@ -81,6 +74,20 @@
         position: absolute;
         z-index: -1;
         width: 500px;
+    }
+
+    @media (max-width: 850px) {
+        .visible{
+            display: none;
+        }
+        .cont{
+            flex-direction: column;
+            background-image: none;
+            padding: 0;
+        }
+        .cont > * > *{
+            width: 90vw;
+        }
     }
 
 </style>

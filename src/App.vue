@@ -26,5 +26,3 @@ import Contactame from './components/Contactame.vue';
 
 
 </template>
-
-<style></style>

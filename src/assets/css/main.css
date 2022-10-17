@@ -5,6 +5,7 @@
     --fs-head2: clamp( 3rem , 5vw + .01rem , 4rem);
     --fs-base: clamp(1rem, 2vw, 2.2rem);
     --fs-base-ph: clamp(1.3rem, 2vw, 2.2rem);
+    --fs-p: clamp(1.25rem, 2vw, 1.8rem);
 }
 
 *{
@@ -21,7 +22,7 @@ body{
     margin-bottom: 20px;
     background-color: #191919;
     background-image: url(../images/musico.png),url(../images/Vectormusic1.svg), url(../images/Vectormusic3.svg), url(../images/Vectormusic2.svg);
-    background-size: 65vw, 35vw, 400px, 300px;
+    background-size: max(400px,60vw), 35vw, max(20vw, 200px), max(20vw, 200px);
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-position-x: right, left, right, right;
     background-position-y: top, top, bottom, calc(50% + 200px);
@@ -94,8 +95,23 @@ h2{
     
 }
 
-@media (max-width: 880px){
+@media (max-width: 885px){
     h1{
         flex-basis: 20%;
     }
+    body{
+        margin-left: 30px;
+    }
 }
+
+
+/* 
+--font-size-sm: clamp(0.8rem, 0.16vw + 0.76rem, 0.89rem);
+--font-size-base: clamp(1rem, 0.33vw + 0.92rem, 1.19rem);
+--font-size-md: clamp(1.25rem, 0.59vw + 1.11rem, 1.58rem);
+--font-size-lg: clamp(1.56rem, 0.97vw + 1.34rem, 2.11rem);
+--font-size-xl: clamp(1.95rem, 1.52vw + 1.6rem, 2.81rem);
+--font-size-xxl: clamp(2.44rem, 2.31vw + 1.9rem, 3.75rem);
+--font-size-xxxl: clamp(3.05rem, 3.44vw + 2.25rem, 5rem);
+
+*/
