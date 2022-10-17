@@ -1,7 +1,7 @@
 <template>
     <div class="wraper">
 
-        <h2>Contactame</h2>
+        <h2 id="contact">Contactame</h2>
         <div class="form">
             <nav>
                 <ul>
@@ -41,10 +41,11 @@
     .form{
         display: flex;
         gap: 10px;
+        align-items: center;
     }
     
     form{
-        width: 400px;
+        width: min(90vw, 400px);
         border-radius: 10px;
         background-color: #222020;
         padding: 20px;
@@ -88,7 +89,6 @@
 
     @media (max-width: 600px){
         .form{
-            display: flex;
             flex-direction: column;
         }
         ul{
@@ -100,9 +100,7 @@
     @media (max-width: 515px){
         .wraper{
             left: unset;
-        }
-        .form {
-            width: min(400px, 90vw);
+            padding: 5px;
         }
     }
 </style>
