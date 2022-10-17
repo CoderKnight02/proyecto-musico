@@ -50,7 +50,7 @@
     }
     .ph{
         margin-top: 150px;
-        font-size: var(-ph);
+        font-size: var(--fs-base-ph);
     }
 
     @media (max-width: 1110px) {
