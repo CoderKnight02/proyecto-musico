@@ -25,7 +25,7 @@
     }
     nav{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: center;
     }
     ul{
@@ -45,9 +45,12 @@
         color: #f42c04;
 
     }
+    div{
+        margin-left: 20px;
+    }
     .ph{
         margin-top: 150px;
-        font-size: var(--fs-base-ph);
+        font-size: var(-ph);
     }
 
     @media (max-width: 1110px) {
@@ -57,18 +60,23 @@
 
     }
 
-    @media (max-width: 880px) {
-        ul{
+    @media (max-width: 420px){
+        ul {
+            flex-direction: column;
+            gap: 5px;
             flex-basis: unset;
         }
-
-    }
-
-    @media (max-width: 610px) {
-        ul{
-            flex-basis: unset;
+        ul li:last-child{
+            position: relative;
+            left: 20px;
         }
-
+        ul li:first-child{
+            position: relative;
+            right: 20px;
+        }
+        h1{
+            margin-left: 10px;
+        }
     }
 
 

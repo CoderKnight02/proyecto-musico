@@ -29,11 +29,14 @@
 
 <style scoped>
     .wraper{
-        margin-left: -100px;
-        margin-top: 300px;
+        position: relative;
+        left: -5vw;
+        margin-top: 100px;
+        margin-inline: auto;
         display: flex;
-        align-items: center;
         flex-direction: column;
+        align-items: center;
+        width: min(700px, 90vw);
     }
     .form{
         display: flex;
@@ -84,9 +87,6 @@
     }
 
     @media (max-width: 600px){
-        .wraper > * {
-            margin-inline: auto;
-        }
         .form{
             display: flex;
             flex-direction: column;
@@ -95,6 +95,14 @@
             display: flex;
             justify-content: space-around;
             margin-bottom: -30px;
+        }
+    }
+    @media (max-width: 515px){
+        .wraper{
+            left: unset;
+        }
+        .form {
+            width: min(400px, 90vw);
         }
     }
 </style>

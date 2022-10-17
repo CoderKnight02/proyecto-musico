@@ -23,7 +23,7 @@
         gap: 20px;
     }
     li{
-        font-size: 2rem;
+        font-size: var(--fs-base);
     }
     .box{
         background-color: white;
@@ -41,9 +41,11 @@
 
         }
         ul{
+            position: relative;
             display: flex;
             justify-content: center;
         }
+        
     }
 
 </style>
